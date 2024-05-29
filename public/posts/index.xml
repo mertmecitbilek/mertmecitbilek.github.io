@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on mertmecitbilek</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on mertmecitbilek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 15 May 2024 15:21:54 +0530</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Web Nedir ?</title>
+      <link>http://localhost:1313/posts/darkweb/</link>
+      <pubDate>Wed, 15 May 2024 15:21:54 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/darkweb/</guid>
+      
+      <description>Dark WEB Nedir ? Dark Web, genel internetin (Surface Web olarak da adlandırılır) erişilemeyen ve genellikle anonim olarak faaliyet gösteren kısımlarını ifade eden bir terimdir. Bu alanlara genellikle standart web tarayıcılarıyla erişilemez ve spesifik yazılımların (örneğin, Tor gibi) kullanılmasını gerektirir.
+Dark Web, çeşitli nedenlerle gizlilik arayan veya faaliyetlerini saklamak isteyen kişiler ve gruplar tarafından kullanılır. Burada, anonim olarak iletişim kurabilir, işlem yapabilir ve bilgi alışverişi yapabilirler. Ancak, bu alan aynı zamanda yasa dışı faaliyetler için de kullanılabilir.</description>
+      
+    </item>
+    
+    <item>
+      <title>Bug Bounty Nedir ?</title>
+      <link>http://localhost:1313/posts/bugbounty/</link>
+      <pubDate>Thu, 18 Apr 2024 15:21:54 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/bugbounty/</guid>
+      
+      <description>Bug Bounty Programları ve Siber Güvenlik
+Bug bounty programları, bir şirketin veya kuruluşun bilgisayar sistemlerindeki güvenlik açıklarını tespit eden bireylere ödül verdiği etkileyici bir siber güvenlik modelidir. Bu programlar, güvenlik açıklarını bulan ve raporlayan bağımsız araştırmacıların (genellikle beyaz şapkalı hackerlar olarak adlandırılır) katılımını teşvik etmek için kurulmuştur.
+Neden Bug Bounty Programları ?
+Bug bounty programları, geleneksel siber güvenlik testlerine göre birkaç avantaj sunar:
+Çok Çeşitli Yeteneklerin Kullanımı: Birçok farklı beceri düzeyine ve uzmanlığa sahip siber güvenlik uzmanı ve araştırmacı, bug bounty programlarına katılabilir.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

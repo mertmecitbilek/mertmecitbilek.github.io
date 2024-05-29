@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on mertmecitbilek</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on mertmecitbilek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hakkımda</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>Merhaba ben Mert Mecit Bilek. Bülent Ecevit Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Okulumda faaliyet gösteren Siber Vatan topluluğunda yer almaktayım. Kendimi hem Siber Vatan&amp;rsquo;ın düzenlemiş olduğu eğitimler ile hem de kendi araştırmalarımla geliştirmekteyim. Bu alanda edindiğim bilgileri ve deneyimleri burada sizlerle paylaşarak farkındalık yaratmayı amaçlıyorum.
+Bu Web sayfası hem kendimi tanıtmak ve benimle iletişime geçebilmeniz hem de kendi yazılarımı sizlere sunmak amacıyla oluşturulmuştur. Keyifli okumalar dilerim.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

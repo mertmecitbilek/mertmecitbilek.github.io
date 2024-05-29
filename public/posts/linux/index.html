@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Linux ve Temel Komutlar | mertmecitbilek</title>
+<meta property="og:title" content="Linux ve Temel Komutlar | mertmecitbilek" />
+<meta name="twitter:title" content="Linux ve Temel Komutlar | mertmecitbilek" />
+<meta itemprop="name" content="Linux ve Temel Komutlar | mertmecitbilek" />
+<meta name="application-name" content="Linux ve Temel Komutlar | mertmecitbilek" />
+<meta property="og:site_name" content="Awesome hugo blog" />
+
+<meta name="description" content="Minimal Hugo blog theme with light and dark mode support">
+<meta itemprop="description" content="Minimal Hugo blog theme with light and dark mode support" />
+<meta property="og:description" content="Minimal Hugo blog theme with light and dark mode support" />
+<meta name="twitter:description" content="Minimal Hugo blog theme with light and dark mode support" />
+
+<meta property="og:locale" content="en-gb" />
+<meta name="language" content="en-gb" />
+
+  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/posts/linux/" title="English" />
+
+
+
+  <meta itemprop="image" content="http://localhost:1313/" />
+  <meta property="og:image" content="http://localhost:1313/" />
+  <meta name="twitter:image" content="http://localhost:1313/" />
+  <meta name="twitter:image:src" content="http://localhost:1313/" />
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=0001-01-01T00:00:00Z />
+    <meta property="article:published_time" content=0001-01-01T00:00:00Z />
+
+    
+    <meta property="og:article:author" content="Hugo authors" />
+    <meta property="article:author" content="Hugo authors" />
+    <meta name="author" content="Hugo authors" />
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Linux ve Temel Komutlar",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "0001-01-01",
+        "description": "",
+        "wordCount":  1005 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "0001-01-01",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "mertmecitbilek"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.126.1">
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/posts/linux/">
+    <link href="/style.min.d43bc6c79baa87f006efb2b92be952faeedeb1a3ab626c1d6abda52eae049355.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    </head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>Home</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Blog Yazılarım
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/about/">
+                        Hakkımda
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Linux ve Temel Komutlar</h1>
+                
+            </header>
+            
+            <div class="page-content">
+                <h4 id="linux-nedir-">**Linux Nedir ?</h4>
+<ul>
+<li>
+<p>Linux, özgür ve açık kaynak kodlu bir işletim sistemidir. İlk olarak 1991 yılında Linus Torvalds tarafından geliştirilmeye başlanmıştır. Temel olarak UNIX benzeri bir yapıya sahiptir ancak tamamen ücretsizdir ve geniş bir topluluk tarafından desteklenmektedir.</p>
+</li>
+<li>
+<p>Linux, çeşitli dağıtımlar altında kullanıcıya sunulmaktadır. Bu dağıtımlar, çeşitli ihtiyaçları karşılamak üzere farklılaşmıştır. Örneğin, Ubuntu, Debian, Fedora, CentOS gibi popüler dağıtımlar bulunmaktadır.</p>
+</li>
+<li>
+<p>Linux, çok çeşitli cihazlarda kullanılabilir; masaüstü bilgisayarlardan sunuculara, gömülü sistemlere kadar birçok alanda tercih edilir. Ayrıca, güçlü ve esnek bir yapıya sahip olduğu için genellikle sunucu işletim sistemi olarak da tercih edilir.</p>
+</li>
+<li>
+<p>Linux, yüksek güvenlik, kararlılık, esneklik ve performans gibi avantajlarıyla bilinir. Ayrıca, açık kaynak kodlu olması, kullanıcıların istedikleri gibi özelleştirmeler yapabilmelerine olanak tanır ve topluluk desteği sayesinde sürekli olarak geliştirilir.</p>
+</li>
+</ul>
+<hr>
+<h2 id="linux-komutları">Linux Komutları</h2>
+<h3 id="1-pwd-komutu">1. pwd komutu</h3>
+<p><strong>pwd</strong> komutunu hangi dizinde (klasörde) olduğunuzu bulmak için kullanın. Sonuç olarak, komut size kesin ve tam bir konum verecektir. Konum genellikle bir bölme işaretiyle <strong>(/)</strong> başlar. İşte size tam bir konum örneği <strong>/home/kullaniciadi</strong>.</p>
+<h3 id="2-cd-komutu">2. cd komutu</h3>
+<p>Linux dosya sisteminde gezinmek için <strong>cd</strong> komutunu kullanın. Bulunduğunuz mevcut dizine bağlı olarak ya tam konum ya da dizinin adını gerektirir.</p>
+<p>Diyelim ki <strong>/home/kullaniciadi/Documents</strong> dizinindesiniz ve <strong>Documents</strong>‘ın alt dizini olan <strong>Photos</strong>‘a gitmek istiyorsunuz. Bunu yapmak için tek yapmanız gereken <strong>cd Photos</strong> komutunu girmektir.</p>
+<p>Bir başka örnek olaraksa diyelim ki tamamiyle yeni bir dizine <strong>/home/kullaniciadi/Movies</strong> geçmek istiyorsunuz. Bu durumda <strong>cd</strong> ve daha sonra da dizinin tam konumunu girmeniz gerekmektedir.</p>
+<p>Eğer daha hızlı konum değiştirmek istiyorsanız bazı kısayollar mevcuttur. Bir üst dizine gitmek istiyorsanız <strong>cd..</strong> (iki noktayla) veya direkt olarak ana dizine gitmek istiyorsanız ise <strong>cd</strong> kullanın. Önceki dizine gitmek istiyorsanız da <strong>cd-</strong> (tireli) kullanabilirsiniz.</p>
+<p>Ek olarak, Linux kabuğu büyük küçük harfe duyarlıdır. Bu yüzden dizinin adını olduğu gibi girmelisiniz.</p>
+<h3 id="3-ls-komutu">3. ls komutu</h3>
+<p><strong>ls</strong> komutu bir dizinin içeriğini görmek için kullanılır. Varsayılan olarak, bu komut mevcut dizinin içeriğini görüntüleyecektir.</p>
+<p>Eğer başka dizinlerin içeriğini görmek istiyorsanız <strong>ls</strong> ve dizinin konumunu girmelisiniz. Örneğin, <strong>Documents</strong>‘ın içeriğini görmek için <strong>ls</strong> <strong>/home/kullaniciadi/Documents</strong> komutunu girin.</p>
+<h3 id="4-cat-komutu">4. cat komutu</h3>
+<p><strong>cat</strong> Linux’da sıklıkla kullanılan komutlardan biridir. Standart çıktıdaki (sdout) bir dosyanın içeriğini görmek için kullanılır. Örneğin: <strong>cat dosya.txt</strong> gibi</p>
+<h3 id="5-cp-komutu">5. cp komutu</h3>
+<p><strong>cp</strong> komutunu mevcut dizinden dosyaları kopyalamak için kullanın. Örneğin, <strong>cp ornek.jpg</strong> <strong>/home/kullaniciadi/Pictures</strong> komutu <strong>ornek.jpg</strong> dosyasının <strong>Pictures</strong> dizininde bir kopyasını oluşturur.</p>
+<h3 id="6-mv-komutu">6. mv komutu</h3>
+<p>Bu komutun ana kullanımı dosyaları taşımaktır ancak dosyaları yeniden adlandırmak için de kullanılabilir.</p>
+<p>Bu komutun kullanımı da <strong>cp</strong> komutuna oldukça benzerdir. Önce <strong>mv</strong>, daha sonra dosyanın adı ve hedef dizini girmelisiniz. Örneğin: <strong>mv dosya.txt /home/kullaniciadi/Documents</strong>.</p>
+<h3 id="7-mkdir-komutu">7. mkdir komutu</h3>
+<p><strong>mkdir</strong> komutunu yeni bir dizin oluşturmak için kullanın. Örneğin, <strong>mkdir Muzik</strong>, <strong>Muzik</strong> adlı yeni bir dizin oluşturacaktır.</p>
+<h3 id="8-rmdir-komutu">8. rmdir komutu</h3>
+<p>Eğer bir dizin silmeniz gerekirse <strong>rmdir</strong> komutunu kullanın. Ancak, rmdir sadece boş dizinleri silmenize izin verir.</p>
+<h3 id="9-rm-komutu">9. rm komutu</h3>
+<p><strong>rm</strong> komutu ise dizinleri içindekilerle birlikte silmek için kullanılır. Eğer sadece dizini silmek istiyorsanız, rmdir’e bir alternatif olarak <strong>rm -r</strong> kullanın.</p>
+<h3 id="10-touch-komutu">10. touch komutu</h3>
+<p><strong>touch</strong> komutu komut satırı üzerinden yeni boş dosyalar oluşturmanızı izin verir. Örnek olarak <strong>Documents</strong> dizini altında <strong>Web</strong> adlı bir HTML dosyası oluşturmak için touch <strong>/home/kullaniciadi/Documents/Web.html</strong> girin.</p>
+<h3 id="11-locate-komutu">11. locate komutu</h3>
+<p>Bu komutu tıpkı Windows’daki search komutu gibi bir dosyanın konumunu bulmak için kullanabilirsiniz. Üstelik bu komutu onu büyük küçük harf duyarlılığını kaldıracak <strong>-i</strong> seçeneği ile bu komutla dosyanın adını hatırlamasanız bile arama yapabilirsiniz.</p>
+<p>İki ya da ikiden fazla kelime içeren bir dosyayı aramak için yıldız işareti <strong>(*)</strong> kullanın. Örneğin, <strong>locate -i okul*not</strong> komutu “okul ve “not” kelimelerini içeren bütün dosyaları büyük veya küçük karakter farketmeksizin arayacaktır.</p>
+<h3 id="12-find-komutu">12. find komutu</h3>
+<p><strong>locate</strong> komutuna benzer olarak <strong>find</strong> komutu da dosya aramak için kullanılır. Farkı ise komutu belirli bir dizinde dosyalar bulmak için kullanılmasıdır.</p>
+<p>Bir örnek olarak <strong>/home/ -name notlar.txt</strong> komutu <strong>notlar.txt</strong> adlı bir dosyayı ana dizinde ve alt dizinlerinde aramak için kullanılır.</p>
+<h3 id="13-grep-komutu">13. grep komutu</h3>
+<p>Günlük kullanım için oldukça kullanışlı olan bir başka komutsa <strong>grep</strong>‘tir. <strong>grep</strong> komutu belirli bir dosyadaki metinde arama yapmak için kullanılır.</p>
+<p>Örnek vermek gerekirse, <strong>grep mavi notdefteri.txt</strong> notdefteri dosyasında mavi kelimesini arayacaktır. Bu kelimeyi içeren kelimeler tam olarak gösterilecektir.</p>
+<h3 id="14-sudo-komutu">14. sudo komutu</h3>
+<p>“<strong>SuperUser Do</strong>” kısaltması olan bu komut yönetici veya kök izinlerini gerektiren görevleri yapmanıza izin verir. Ancak, bu komut günlük kullanım için önerilmez çünkü yanlış bir şey yaparsanız hata oluşması oldukça kolaydır.</p>
+<h3 id="15-df-komutu">15. df komutu</h3>
+<p>Disk alanı kullanımını yüzdesel ve KB(kilobayt) olarak öğrenmek için kullanabilirsiniz. Eğer raporu megabayt olarak görmek isterseniz <strong>df -m</strong> kullanın.</p>
+<h3 id="16-du-komutu">16. du komutu</h3>
+<p>Eğer bir dosyanın veya dizinin ne kadar alan kapladığını kontrol etmek istiyorsanız <strong>du</strong> (<em>Disk Usage</em> – Disk Kullanımı) komutunu kullanmalısınız. Ancak, disk kullanımı özeti normal boyut formatı yerine disk blok numaralarını gösterecektir. Eğer özeti bayt, kilobayt ve megabayt formunda görmek istiyorsanız komut satırına <strong>-h</strong> seçeneğini ekleyin.</p>
+<h3 id="17-diff-komutu">17. diff komutu</h3>
+<p><em>difference</em>‘ın kısaltılmışı olan <strong>diff</strong> komutu iki dosyanın içeriğini satır satır karşılaştırır. Dosyaları analiz ettikten sonra uymayan satırları sonuç olarak verecektir. Programcılar bu komutu programda değişiklik yapmak için sıklıkla bütün kaynak kodunu yeniden yazmak yerine kullanır.</p>
+<p>Bu komutun en basit formu <strong>diff dosya1.ext dosya2.ext</strong>‘dir.</p>
+<h3 id="18-kill-komutu">18. kill komutu</h3>
+<p>Eğer yanıt vermeyen bir program varsa <strong>kill</strong> komutunu kullanarak programı elle sonlandırabilirsiniz. Bu komut yanıt vermeyen uygulamaya belirli bir sinyal yollayacak ve uygulamaya kendini sonlandırması için talimat verecektir.</p>
+<h3 id="19-ping-komutu">19. ping komutu</h3>
+<p><strong>ping</strong> komutunu bir sunucuya bağlantınızı kontrol etmek için kullanın. Örneğin, <strong>ping google.com</strong> komutunu girerek Google’a bağlanıp bağlanamadığınızı öğrenebilir ve yanıt süresini ölçebilirsiniz.</p>
+<h3 id="20-wget-komutu">20. wget komutu</h3>
+<p>Linux komutları oldukça kullanışlıdır. <strong>wget</strong> komutunun yardımıyla İnternet’ten dosya bile indirebilirsiniz. Bunu yapmak için <strong>wget</strong> ve daha sonra ise indirmek istediğiniz dosyanın bağlantısını girin.</p>
+<h3 id="21-uname-komutu">21. uname komutu</h3>
+<p>Kısaltılmışı Unix Name olan &ldquo;uname&rdquo; komutu Linux sisteminiz hakkında makine adı, işletim sistemi, çekirdek vb. gibi bilgileri verecektir.</p>
+<h3 id="22-top-komutu">22. top komutu</h3>
+<p>Windows’daki Görev Yöneticisi’nin bir eşleniği olan &ldquo;<strong>top</strong>&rdquo; komutu çalışmakta olan programların listesini ve bu programların ne kadar CPU kullandığını gösterecektir. Sistem kaynakları kullanımını izlemek oldukça kullanışlıdır ve özellikle de fazla sistem kaynağı kullanan programları sonlandırabilmeniz için size yardımcı olacaktır.</p>
+<h3 id="23-history-komutu">23. history komutu</h3>
+<p>Linux’u bir süre kullandıktan sonra her gün yüzlerce komut çalıştırdığınızı fark edeceksiniz. Eğer daha önce girdiğiniz komutları görmek istiyorsanız &ldquo;<strong>history</strong>&rdquo; komutunu çalıştırabilirsiniz.</p>
+<h3 id="24-man-komutu">24. man komutu</h3>
+<p>Hangi komutun hangi işleve sahip olduğunu unuttunuz mu? Hiç merak etmeyin. Linux komutları listemizdeki son komut olan <strong>man</strong> komutunu kullanarak komutları Linux kabuğundan öğrenebilirsiniz. Örneğin, &ldquo;<strong>man tail</strong>&rdquo; komutunu girmek &ldquo;<strong>tail</strong>&rdquo; komutunun kullanım talimatını gösterecektir.</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/mertmecitbilek" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://x.com/mertmbilek" target="_blank" rel="noopener noreferrer me"
+    title="Twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
+</a>
+<a href="https://www.instagram.com/mertt.bilek/" target="_blank" rel="noopener noreferrer me"
+    title="Instagram">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+</svg>
+</a>
+<a href="https://www.linkedin.com/in/mert-mecit-bilek-a55750226/" target="_blank" rel="noopener noreferrer me"
+    title="Linkedin">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        ©  2024 
+        Mert Mecit Bilek | Tüm Hakları Saklıdır.
+    </small>
+</footer><a href="#" title="Go to top" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>
